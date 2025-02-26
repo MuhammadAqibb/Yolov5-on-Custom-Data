@@ -1,0 +1,12 @@
+
+#path: ../yolo_train_data/images/  # dataset root dir
+train: /content/yolo_train_data/images/train #../yolo_train_data/images/train  # train images (relative to 'path')
+val: /content/yolo_train_data/images/val #../yolo_train_data/images/val  # val images (relative to 'path') 
+test:  # test images (optional)
+
+# Classes
+names:
+  0: Pakistan
+  1: Turkey
+  2: USA
+  3: Azerbaijan
